@@ -4,7 +4,7 @@ public class ReverseTheGivenString {
 
 	public static void main(String[] args) {		
 		
-		String originalStr = "HELLO*JAVA";
+		String originalStr = "HELLO*JAVA*CODE";
 		String reversedStr = "";
 		
 		  for(int i=0; i<originalStr.length();i++) 

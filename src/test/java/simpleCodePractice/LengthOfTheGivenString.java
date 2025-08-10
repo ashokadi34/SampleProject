@@ -1,16 +1,16 @@
 package simpleCodePractice;
 
-public class LengthOfTheString {
+public class LengthOfTheGivenString {
 
 	public static void main(String[] args) {
 
 		String str= "programming";
 		char arr[]=str.toCharArray();
-		int cou=0;
+		int count=0;
 		for(char a : arr) {
-			cou++;
+			count++;
 		}
-		System.out.println(cou);
+		System.out.println("Length of the string: "+count);
 	}
 
 }

@@ -4,7 +4,7 @@ public class ReverseWordsInString {
 
 	public static void main(String[] args) {
 		
-		String str="My name is Java";
+		String str="My name is Java Programming";
 		String arr[]=str.split(" ");
 		String rev="";
 		
@@ -12,7 +12,7 @@ public class ReverseWordsInString {
 		{
 			rev=rev+arr[i]+" ";
 		}
-		System.out.println("reversStringWord: "+rev);
+		System.out.println("ReverseWordsInString: "+rev);
 		
 	}
 

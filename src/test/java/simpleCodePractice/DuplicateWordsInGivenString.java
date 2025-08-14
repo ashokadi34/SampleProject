@@ -3,7 +3,7 @@ package simpleCodePractice;
 import java.util.HashMap;
 import java.util.Set;
 
-public class DuplicateWordsInString {
+public class DuplicateWordsInGivenString {
 
 	public static void main(String[] args) {
 
@@ -20,13 +20,13 @@ public class DuplicateWordsInString {
 				map.put(s, 1);
 			}
 		} 	
-			System.out.println("dupliWord:"+map);
+			System.out.println("duplicate Word:"+map);
 			Set<String> wordsIn=map.keySet();
 			for(String word:wordsIn)
-			{
+			{ 
 				if(map.get(word)>1) 
 				{
-					System.out.println("dupliWord:"+word+":"+map.get(word)+" ");
+					System.out.println("duplicate Word:"+word+":"+map.get(word)+" ");
 				}
 			}
 	

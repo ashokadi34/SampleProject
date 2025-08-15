@@ -8,7 +8,8 @@ public class RemoveDupliCharsInString {
 
 		String str="programming";			
 		String res=str.chars().distinct().mapToObj(c->(char)c).map(String::valueOf).collect(Collectors.joining());
-		System.out.println("removeDupliCharStringStreams: "+res);
+		System.out.println("Given String :"+str);
+		System.out.println("StringAfterRemoveDuplicates: "+res);
 		
 	}
 

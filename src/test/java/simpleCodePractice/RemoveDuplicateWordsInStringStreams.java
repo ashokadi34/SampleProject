@@ -10,7 +10,8 @@ public class RemoveDuplicateWordsInStringStreams {
 
 		String str="my name is java and this java is good";
 		String res=Arrays.stream(str.split(" ")).distinct().collect(Collectors.joining(" "));
-		System.out.println("removeDupliWordsInString(Streams): "+res);	
+		System.out.println("Given String: "+str);
+		System.out.println("String after remove Duplicate Words In String(Streams): "+res);	
 		
 	}
 

@@ -4,7 +4,7 @@ public class RemoveSpecialCharsInString {
 
 	public static void main(String[] args) {
 
-		String str="java@#%";		
+		String str="j!ava@# %i^s%^ &*G*o*od(@#$";		
 		String res="";	
 		int cou=0;
 		
@@ -20,6 +20,7 @@ public class RemoveSpecialCharsInString {
 				res=res+str.charAt(i);
 			}
 		}
+			System.out.println("Given String: "+str);
 			System.out.println("removeSpecialCharsInString: "+res+" "+"[number of special chars in string: "+cou+"]");
 			
 	}

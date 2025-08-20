@@ -13,8 +13,8 @@ public class SwapLastLettersOfString {
         // Swap the last letters
         String newString1 = string1.substring(0, string1.length() - 1) + lastChar2;
         String newString2 = string2.substring(0, string2.length() - 1) + lastChar1;
-        System.out.println("Original - String 1:" + string1+" String 2:"+string2);	       
-        System.out.println("New - String 1:" + newString1+" String 2:"+newString2); 	        
+        System.out.println("Original -> String 1: " + string1+" &"+" String 2:"+string2);	       
+        System.out.println("New -> String 1: " + newString1+" &"+" String 2:"+newString2); 	        
 	
 		
 	}

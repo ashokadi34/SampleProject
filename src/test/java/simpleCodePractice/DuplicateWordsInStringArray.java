@@ -1,11 +1,9 @@
 package simpleCodePractice;
 
-import java.util.HashSet;
-
 public class DuplicateWordsInStringArray {
 
-	public static void main(String[] args) {
-
+	public static void main(String[] args) 
+	{
 
 		String[] str = {"abc","xyz","mno","abc","xyz"};
 		for(int i=0;i<=str.length;i++) 
@@ -17,17 +15,7 @@ public class DuplicateWordsInStringArray {
 					System.out.println(str[i]);
 				}
 			}
-		}
-		
-//		HashSet<String> hs = new HashSet<>();
-//		for(String re:str) 
-//		{
-//			if(!hs.add(re)) 
-//			{
-//				System.out.println(re);
-//			}			
-//		}		
-//	
+		}		
 		
 	}
 

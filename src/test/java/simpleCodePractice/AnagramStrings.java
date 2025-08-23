@@ -9,6 +9,8 @@ public class AnagramStrings {
 		String str1="listen";
 		String str2="silent";
 		
+		System.out.println("Given two strings: "+str1+" & "+str2);
+		
 		char[] arr1=str1.toCharArray();
 		char[] arr2=str2.toCharArray();
 		
@@ -19,9 +21,9 @@ public class AnagramStrings {
 		
 		if(isAnagram)
 		{
-			System.out.println("Anagrams: "+str1+" - "+str2);
+			System.out.println("Given two strings are ANAGRAMS: "+str1+" - "+str2);
 		} else {
-			System.out.println("Not Anagrams: "+str1+" - "+str2);
+			System.out.println("Given two strings are NOT ANAGRAMS: "+str1+" - "+str2);
 		}
 	
 	}

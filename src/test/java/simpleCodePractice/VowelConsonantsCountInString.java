@@ -8,6 +8,7 @@ public class VowelConsonantsCountInString {
 		str=str.toLowerCase();		
 		int vovelCount=0;
 		int consonantCount=0;
+			System.out.println("Given String: "+str);
 		for(int i=0;i<str.length();i++)
 		{	
 			char ch=str.charAt(i);
@@ -16,15 +17,15 @@ public class VowelConsonantsCountInString {
 				if(ch=='a'|| ch=='e' ||ch=='i'|| ch=='o'||ch=='u') 
 				{
 					vovelCount++;
-					System.out.println("vo:"+ch);
+					System.err.println("vovel: "+ch);
 				} else {
 					consonantCount++;
-					System.out.println("co:"+ch);
+					System.out.println("consonant: "+ch);
 				}
 			}
 		}	
-			System.out.println("vovels:"+vovelCount);
-			System.out.println("consonant:"+consonantCount);
+			System.out.println("Total Vovels in String: "+vovelCount);
+			System.out.println("Total Consonants in string: "+consonantCount);
 	
 	}
 

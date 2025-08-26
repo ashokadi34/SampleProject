@@ -5,6 +5,7 @@ public class CharacterCountInStringSequence {
 	public static void main(String[] args) {
 
 		String str="abbdcccdddd";
+		System.out.println("Given String: "+str);
 		StringBuilder sb=new StringBuilder();			
 		for(int i=0;i<str.length();i++)
 		{
@@ -16,7 +17,7 @@ public class CharacterCountInStringSequence {
 			}
 				sb.append(str.charAt(i)).append(cou);
 		}
-			System.out.println(sb.toString());		
+			System.out.println("Output: "+sb.toString());		
 	
 	}
 

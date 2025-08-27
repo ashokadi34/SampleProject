@@ -7,6 +7,7 @@ public class FindLongestSubString {
 	public static void main(String[] args) {
 		
 		String str="pwwkew";
+		System.out.println("Given String: "+ str);
 		int start=0;		
 		int maxLength=0;
 		String res="";

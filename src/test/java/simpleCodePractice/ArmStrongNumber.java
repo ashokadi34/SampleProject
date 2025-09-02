@@ -4,7 +4,8 @@ public class ArmStrongNumber {
 
 	public static void main(String[] args) {
 
-		int num=154;	//1*1*1 + 5*5*5 + 3*3*3=153
+		int num=153;	//1*1*1 + 5*5*5 + 3*3*3=153
+		System.out.println("Given number: "+num);
 		int orgNum=num;
 		int res=0;
 		int numLength=String.valueOf(num).length();

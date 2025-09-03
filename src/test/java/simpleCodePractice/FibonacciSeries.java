@@ -5,6 +5,7 @@ public class FibonacciSeries {
 	public static void main(String[] args) {
 
 		int febCount=15;
+		System.out.println("Fibonacci count: "+febCount);
 		int[] feb=new int[febCount];
 		feb[0]=0;
 		feb[1]=1;

@@ -14,9 +14,9 @@ public class PrimeNumbers {
 			}			
 		}
 		if(isPrime && n>1) {
-			System.out.println(n+" is prime");
+			System.out.println(n+" is prime number");
 		} else {
-			System.out.println(n+" is not prime");
+			System.out.println(n+" is not prime number");
 		}
 		
 	}

@@ -5,6 +5,7 @@ public class FindMissingDigitArray {
 	public static void main(String[] args) {
 
 		int arr[]= {1,2,4,5};
+		System.out.println("Given Array: "+(java.util.Arrays.toString(arr)));
 		int n=arr.length+1;
 		int exSum=n*(n+1)/2;
 		int acSum=0;
@@ -15,7 +16,7 @@ public class FindMissingDigitArray {
 			acSum=acSum+arr[i];
 		}
 			res=exSum-acSum;
-			System.out.println("missingDigitArray: "+res);				
+			System.out.println("Missing Digit in Array: "+res);				
 	
 	}
 

@@ -6,7 +6,9 @@ public class CountOfDigitsInInteger {
 
 		
 		int n = 12345;
-		//int numberOfDigits = String.valueOf(n).length();
+		System.out.println("Given Integer: "+n);
+//		int numberOfDigits = String.valueOf(n).length();	
+//		System.out.println("Count : "+numberOfDigits);
 		int count = 0;
 		
 		for(;n!=0;n=n/10)
@@ -14,7 +16,7 @@ public class CountOfDigitsInInteger {
 			count++;
 		}
 		
-		System.out.println("countOfInt: "+count);
+		System.out.println("Count Of Digits In Integer: "+count);
 	
 	}
 

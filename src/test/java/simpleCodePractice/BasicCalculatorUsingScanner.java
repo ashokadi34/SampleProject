@@ -2,7 +2,7 @@ package simpleCodePractice;
 
 import java.util.Scanner;
 
-public class BasicScannerCalculator {
+public class BasicCalculatorUsingScanner {
 
 	public static void main(String[] args) {
 
@@ -29,7 +29,7 @@ public class BasicScannerCalculator {
                 break;
             case '/': result = num1 / num2;                
                 break;
-            default: System.out.println("Error: Invalid operator");
+            default: System.err.println("Error: Invalid operator");
                
                 return;
         }

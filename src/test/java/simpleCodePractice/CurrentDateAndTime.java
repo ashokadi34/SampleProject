@@ -14,7 +14,7 @@ public class CurrentDateAndTime {
 		 
 		 LocalTime t = LocalTime.now();
 		 
-		 System.out.println("Time Now : "+t);
+		 System.out.println("Time : "+t);
 
 	
 	}

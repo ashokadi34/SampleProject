@@ -3,13 +3,16 @@ package simpleCodePractice;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class FindCommonElements {
+public class FindCommonElementsInArray {
 
 	public static void main(String[] args) {
 
         // Initialize two ArrayLists
         ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
         ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(4, 5, 6, 7, 8));
+        
+        System.out.println("Array-1 : " + list1);
+        System.out.println("Array-2 : " + list2);
 
         // Create an ArrayList to store common elements
         ArrayList<Integer> commonElements = new ArrayList<>();
@@ -22,7 +25,7 @@ public class FindCommonElements {
         }
         
        // Print the common elements
-        System.out.println("Common elements: " + commonElements);
+        System.out.println("Common elements in both array: " + commonElements);
     
 	}
 

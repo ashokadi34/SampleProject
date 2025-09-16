@@ -7,12 +7,14 @@ public class FindCountOfDuplicateDigitsInArray {
 	public static void main(String[] args) {
 
 		
+		int a[]= {1,2,3,4,1,2,2,6,5};
+		System.out.println("Given Array: "+(java.util.Arrays.toString(a)));
+		int count=0;
+		
 		Scanner input =new Scanner(System.in);
-		System.out.print("Find count the duplicate number: ");
+		System.out.print("Give Input digit: ");
 		int num=input.nextInt();
 		
-		int a[]= {1,2,3,4,1,2,2,6,5};
-		int count=0;
 		
 		for(int value : a)
 		{

@@ -1,6 +1,6 @@
 package simpleCodePractice;
 
-public class EvenoddNumber {
+public class EvenOddNumber {
 
 	public static void main(String[] args) {
 

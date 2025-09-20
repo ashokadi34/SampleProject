@@ -19,7 +19,7 @@ public class ReadingWritingDataIntoArray {
 			a[i]=sc.nextInt();
 		}
 		
-		System.out.println("Printing Array Elements.......");
+		System.out.println("Printing Array with Elements.......");
 		System.out.println(Arrays.toString(a));
 		
 	

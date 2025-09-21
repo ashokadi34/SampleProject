@@ -7,12 +7,14 @@ public class SearchElementInArray {
 	public static void main(String[] args) {
 
 
-		Scanner input = new Scanner(System.in);
-
-		System.out.print("Enter searchable number in array: ");
-		int search_element = input.nextInt();
+		Scanner input = new Scanner(System.in);		
 
 		int[] array = { 1, 2, 3, 4, 5 };
+		System.out.println("Given Array: "+(java.util.Arrays.toString(array)));
+		
+		System.out.print("Enter searchable number in array: ");
+		int search_element = input.nextInt();
+		
 		boolean status = false; // ***Must need boolean variable***
 		
 		/*
@@ -32,7 +34,7 @@ public class SearchElementInArray {
 
 			if (status == false) 
 			{
-				System.out.println("Elemenet not found");
+				System.err.println("Elemenet not found");
 			}
 
 		

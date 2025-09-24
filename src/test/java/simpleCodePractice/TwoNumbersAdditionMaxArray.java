@@ -5,6 +5,7 @@ public class TwoNumbersAdditionMaxArray {
 	public static void main(String[] args) {
 		
 		int arr[]={5,7,6,8,4,3,2,9};
+		System.out.println("Given Array: "+(java.util.Arrays.toString(arr)));
 		int max = 0;								//Integer.MIN_VALUE; // Initialize max to the smallest possible value
 		
 	     for (int i = 0; i < arr.length; i++) 
@@ -19,7 +20,7 @@ public class TwoNumbersAdditionMaxArray {
 	                }
 	         }  
 	     }
-	        System.out.println("Two numbers addition max is: " + max);
+	        System.out.println("Max sum of two digits in array: " + max);
 
 	}
 

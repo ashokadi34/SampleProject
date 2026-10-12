@@ -8,7 +8,7 @@ This project is created for **Java learning, coding practice, interview preparat
 
 ## Overview
 
-This repository contains simple Java programs implemented to practice and strengthen core programming concepts.
+# This repository contains simple Java programs implemented to practice and strengthen core programming concepts.
 
 The programs cover topics such as:
 
